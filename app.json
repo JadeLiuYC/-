@@ -1,12 +1,13 @@
 {
-  "pages":[
+  "pages": [
+    "pages/infosubmit/infosubmit",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/chooseskill/chooseskill"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "创业投",
+    "navigationBarTextStyle": "black"
   }
 }

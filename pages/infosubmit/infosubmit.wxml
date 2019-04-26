@@ -1,0 +1,43 @@
+<view class='pagebox'>
+  <view class='formbox'>
+    <view class='section-formbox'>
+      <view class='inputbox-formbox border-bottom'>
+        <text class='tit'>姓名</text>
+        <input class='input' type='text' placeholder='请输入您的姓名'></input>
+      </view>
+      <view class='inputbox-formbox border-bottom'>
+        <text class='tit'>性别</text>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{sex}}" wx:key="*this">
+            <radio value="{{item.name}}" checked="{{item.checked}}" color='#1E90FF'/>
+            {{item.name}}
+          </label>
+        </radio-group>
+      </view>
+      <view class='inputbox-formbox'>
+        <text class='tit'>年龄</text>
+        <picker
+          mode="date"
+          value="{{date}}"
+          bindchange="bindDateChange"
+        >
+          <view class="picker">
+            {{date}}
+          </view>
+        </picker>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='section-formbox'>
+      <view class='title border-bottom'>个人资料填写</view>
+      <textarea class='textarea' placeholder='请填写个人资料信息' cursor-spacing="200rpx"></textarea>
+    </view>
+    <view class='section-formbox'>
+      <view class='title fl'>个人创业技能</view>
+      <text class='iconfont iconfont-right icon-youjiantou1 fr'></text>
+    </view>
+    <view class='btnbox'>
+      <button type='default' class='btn'>编辑完成</button>
+    </view>
+  </view>
+</view>
