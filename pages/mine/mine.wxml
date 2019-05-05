@@ -1,0 +1,73 @@
+<view class='container'>
+  <view class='section'>
+    <view class='list-section' bindtap='router' data-url="../infosubmit/infosubmit">
+      <image class='img-list-section' src='../../images/mine/mine_1.png'></image>
+      <view class='info-list-section border-bottom'>
+        <view class='tit'>我的资料</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='list-section' bindtap='router' data-url="../connections/connections">
+      <image class='img-list-section' src='../../images/mine/mine_2.png'></image>
+      <view class='info-list-section'>
+        <view class='tit'>创投人脉</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+  </view>
+  <view class='section'>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_3.png'></image>
+      <view class='info-list-section border-bottom'>
+        <view class='tit'>BP或者白皮书一键发送投资人</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_4.png'></image>
+      <view class='info-list-section border-bottom'>
+        <view class='tit'>BP或者白皮书平台上架展示</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_5.png'></image>
+      <view class='info-list-section'>
+        <view class='tit'>发布创业合伙人招募信息</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+  </view>
+  <view class='section'>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_6.png'></image>
+      <view class='info-list-section border-bottom'>
+        <view class='tit'>我参加的创业团队</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_7.png'></image>
+      <view class='info-list-section'>
+        <view class='tit'>我平台发布的内容</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+  </view>
+  <view class='section'>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_8.png'></image>
+      <view class='info-list-section border-bottom'>
+        <view class='tit'>我的收藏</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+    <view class='list-section'>
+      <image class='img-list-section' src='../../images/mine/mine_9.png'></image>
+      <view class='info-list-section'>
+        <view class='tit'>我的消息</view>
+        <text class='iconfont icon-youjiantou1'></text>
+      </view>
+    </view>
+  </view>
+</view>

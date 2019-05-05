@@ -1,2 +1,12 @@
-<!--pages/chooseskill/chooseskill.wxml-->
-<text>pages/chooseskill/chooseskill.wxml</text>
+<view class='container'>
+  <view class='section'>
+    <view class='switchbox'>  
+      <text class='tit'>联合创始人</text>
+      <switch class='switch' value="" color="#1E90FF" bindchange="switchChange" />
+    </view>
+    <view class='switchbox'>
+      <text class='tit'>创业团队</text>
+      <switch class='switch' value="" color="#1E90FF" bindchange="switchChange" />
+    </view>
+  </view>
+</view>

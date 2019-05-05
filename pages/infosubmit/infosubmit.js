@@ -42,4 +42,9 @@ Page({
       date: e.detail.value
     })
   },
+  chooseSkill(){
+    wx.navigateTo({
+      url: '../chooseskill/chooseskill',
+    })
+  }
 })

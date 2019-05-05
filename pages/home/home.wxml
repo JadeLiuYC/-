@@ -1,0 +1,49 @@
+<view class='container'>
+  <swiper
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="true"
+    class='swiper'
+  >
+    <block wx:for="{{imgUrls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='tabs'>
+    <block wx:for="{{tabs}}" wx:key="*this">
+      <view class="{{tabActive == index ? 'tab active':'tab'}}">
+        <text class='tit'>{{item}}</text>
+      </view>
+    </block>
+  </view>
+  <view class='lists'>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+    <view class='item-lists'>
+      <image class='img' src='../../images/list_1.jpg'></image>
+      <view class='tit'>创业项目</view>
+    </view>
+  </view>
+</view>

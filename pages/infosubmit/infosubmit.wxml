@@ -1,4 +1,4 @@
-<view class='pagebox'>
+<view class='container'>
   <view class='formbox'>
     <view class='section-formbox'>
       <view class='inputbox-formbox border-bottom'>
@@ -32,7 +32,7 @@
       <view class='title border-bottom'>个人资料填写</view>
       <textarea class='textarea' placeholder='请填写个人资料信息' cursor-spacing="200rpx"></textarea>
     </view>
-    <view class='section-formbox'>
+    <view class='section-formbox' bindtap='chooseSkill'>
       <view class='title fl'>个人创业技能</view>
       <text class='iconfont iconfont-right icon-youjiantou1 fr'></text>
     </view>

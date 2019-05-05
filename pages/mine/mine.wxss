@@ -1,0 +1,34 @@
+@import "../../font/iconfont.wxss";
+.border-bottom{
+  border-bottom: 1px solid #EDEDED;
+}
+.section{
+  background-color: #fff;
+  padding-left: 20rpx;
+  margin-top: 20rpx;
+}
+.list-section{
+  display: flex;
+  align-items: center;
+}
+.img-list-section{
+  width: 40rpx;
+  height: 38rpx;
+  padding-right: 30rpx;
+}
+.info-list-section{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 30rpx 20rpx 30rpx 0;
+}
+.info-list-section .tit{
+  flex: 1;
+  font-size: 30rpx;
+  color: #000000;
+}
+.info-list-section .iconfont{
+  font-size: 30rpx;
+  color: #B3B3B3;
+
+}

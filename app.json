@@ -1,13 +1,43 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/connections/connections",
+    "pages/mine/mine",
+    "pages/chooseskill/chooseskill",
     "pages/infosubmit/infosubmit",
-    "pages/index/index",
-    "pages/chooseskill/chooseskill"
+    "pages/entrance/entrance",
+    "pages/whitepaper/whitepaper"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "创业投",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "iconPath": "images/tabbar_1.png",
+        "selectedIconPath": "images/tabbar_11.png",
+        "pagePath": "pages/whitepaper/whitepaper",
+        "text": "白皮书"
+      },
+      {
+        "iconPath": "images/tabbar_2.png",
+        "selectedIconPath": "images/tabbar_22.png",
+        "pagePath": "pages/home/home",
+        "text": "合伙人"
+      },
+      {
+        "iconPath": "images/tabbar_3.png",
+        "selectedIconPath": "images/tabbar_33.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

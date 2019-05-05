@@ -1,0 +1,75 @@
+@import "../../font/iconfont.wxss";
+.border-bottom{
+  border-bottom: 1px solid #EDEDED;
+}
+.collapse{
+  padding: 50rpx 20rpx;
+  background-color: #1E90FF;
+  display: flex;
+  align-items: center;
+}
+.collapse .img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.collapse .info{
+  flex: 1;
+  margin-left: 30rpx;
+  color: #ffffff;
+}
+.collapse .info .tit{
+  font-size: 36rpx;
+  line-height: 60rpx;
+}
+.collapse .info .num{
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+.section{
+  background-color: #ffffff;
+  padding-left: 20rpx;
+}
+.item-section{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 20rpx 20rpx 0;
+}
+.item-section .tit{
+  font-size: 30rpx;
+  display: inline-block;
+  width: 45%;
+  line-height: 60rpx;
+}
+.item-section .imgbox{
+  flex: 1;
+  overflow: hidden;
+  text-align: right;
+}
+.item-section .imgbox .img{
+  display: block;
+  float: right;
+  width: 60rpx;
+  height: 60rpx;
+}
+.item-section .iconfont{
+  font-size: 36rpx;
+  color: #B3B3B3
+}
+.btnbox{
+  padding: 30rpx 20rpx;
+}
+.btnbox .btn{
+  width: 100%;
+  padding: 0;
+  height: 94rpx;
+  line-height: 94rpx;
+  background-color: #1E90FF;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+.prompt{
+  padding: 20rpx;
+  font-size: 30rpx;
+  color: #CCCCCC;
+}

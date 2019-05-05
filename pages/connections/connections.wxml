@@ -1,0 +1,48 @@
+<view class='container'>
+  <view class='collapse'>
+    <image class='img' src='../../images/logo.png'></image>
+    <view class='info'>
+      <view class='tit'>创投人脉</view>
+      <view class='num'>38人</view>
+    </view>
+  </view>
+  <view class='section'>
+    <view class='item-section border-bottom'>
+      <text class='tit'>投资人</text>
+      <view class='imgbox'>
+        <image class='img' src='../../images/logo.png'></image>
+        <image class='img' src='../../images/logo.png'></image>
+      </view>
+      <text class='iconfont icon-youjiantou1'></text>
+    </view>
+    <view class='item-section border-bottom'>
+      <text class='tit'>创业者</text>
+      <view class='imgbox'>
+        <image class='img' src='../../images/logo.png'></image>
+        <image class='img' src='../../images/logo.png'></image>
+      </view>
+      <text class='iconfont icon-youjiantou1'></text>
+    </view>
+    <view class='item-section'>
+      <text class='tit'>999人确定过他的身份</text>
+      <view class='imgbox'>
+        <image class='img' src='../../images/logo.png'></image>
+        <image class='img' src='../../images/logo.png'></image>
+        <image class='img' src='../../images/logo.png'></image>
+        <image class='img' src='../../images/logo.png'></image>
+      </view>
+      <text class='iconfont icon-youjiantou1'></text>
+    </view>
+  </view>
+  <view class='btnbox'>
+    <button class='btn' type='default'>确认他(她)的身份</button>
+  </view>
+  <view class='section'>
+    <view class='item-section'>
+      <text class='tit'>分享至微信</text>
+      <view class='imgbox'></view>
+      <text class='iconfont icon-fenxiang2'></text>
+    </view>
+  </view>
+  <view class="prompt">让好友确认你的身份，增加你的创投人脉</view>
+</view>

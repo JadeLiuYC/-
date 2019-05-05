@@ -1,0 +1,50 @@
+.swiper{
+  width: 100%;
+  height: 300rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.tabs{
+  display: flex;
+  background-color: #ffffff;
+}
+.tabs .tab{
+  flex: 1;
+  font-size: 28rpx;
+  text-align: center;
+  padding: 25rpx 0;
+}
+.tabs .tab .tit{
+  padding: 25rpx 0;
+}
+.tabs .tab.active .tit{
+  color: #1E90FF;
+  border-bottom: 5rpx solid #1E90FF; 
+}
+.lists{
+  overflow: hidden;
+  padding: 30rpx 40rpx;
+}
+.lists .item-lists{
+  width: 315rpx;
+  margin-bottom: 20rpx;
+}
+.lists .item-lists .img{
+  width: 100%;
+  height:180rpx;
+  border-radius: 5rpx;
+}
+.lists .item-lists .tit{
+  font-size: 30rpx;
+  color: #000000;
+  text-align: center;
+  margin-top: 15rpx;
+}
+.lists .item-lists:nth-of-type(2n+1){
+  float:left;
+}
+.lists .item-lists:nth-of-type(2n){
+  float:right;
+}

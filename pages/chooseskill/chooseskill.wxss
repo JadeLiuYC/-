@@ -1,1 +1,16 @@
-/* pages/chooseskill/chooseskill.wxss */
+.section{
+  padding: 0 20rpx;
+  background-color: #ffffff;
+  border-top: 1px solid #EDEDED;
+}
+.switchbox{
+  display: flex;
+  align-items: center;
+  padding: 25rpx 0;
+  border-bottom:1px solid #EDEDED;
+}
+.switchbox .tit{
+  flex: 1;
+  font-size: 30rpx;
+  color: #000000;
+}
